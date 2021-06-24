@@ -1,0 +1,123 @@
+<div class="block-grid2">
+  <h1 class="safety-heading2">{{section.settings.description5}}</h1>
+  <div class="grid-block-items last-block" style="text-align:center;position: relative;
+    left: 90px;">
+    
+  {%for block in section.blocks%}
+ 
+  
+<div class="block-items">
+   <p class="btn-safety">{{block.settings.heading3}}</p>
+  
+  <ul class="list-safety2" style="list-style-position: outside;">
+    
+   {{block.settings.heading4}}
+   
+  </ul>
+   
+  </div>
+ 
+ 
+   
+{%endfor%}
+  </div>
+</div>
+
+
+
+<style>
+  
+  .safety-heading2{
+      text-align: center;
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #000;
+    position: relative;
+    top: 60px;
+  
+  }
+  .list-safety2>p{
+  margin: 10px;
+  }
+  
+  .vitaly-text-section1>p{
+  margin-bottom: 7%;
+  }
+  
+  .vitaly-text-section1{margin-bottom: 21%;}
+  
+  .block-grid2{
+ 
+    color: #000;
+  }  
+
+  .grid-block-items{
+  
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 5% 0px;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-gap: 30px;
+    line-height: 1.2;
+ 
+  }
+  .btn-safety{
+  text-align: center;
+    padding: 10px 30px;
+    background: #febd17;
+    color: #000;
+    font-size: 1.4em;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+  
+</style>
+
+
+
+{% schema %}
+   {
+  	"name": "Safety-block3",
+  	"settings": [
+  		
+{
+  			"type": "richtext",
+  			"label": "Second-block-title",
+  			"id": "description5"
+  		}
+  	],
+  	"blocks": [{
+  		"type": "text",
+  		"name": "text block",
+  		"settings": [
+      {
+  			"type": "text",
+  			"label": "Title Safety",
+  			"id": "heading3"
+  		},
+  {
+  			"type": "richtext",
+  			"label": "list",
+  			"id": "heading4"
+  		}
+
+
+
+]
+  	}
+
+],
+  	"presets": [{
+  		"category": "image",
+  		"name": "safety3"
+  	}]
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

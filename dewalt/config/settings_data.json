@@ -1,0 +1,2833 @@
+{
+  "current": {
+    "heading_color": "#1c1b1b",
+    "text_color": "#1c1b1b",
+    "text_light_color": "#6a6a6a",
+    "link_color": "#6a6a6a",
+    "background": "#ffffff",
+    "light_background": "#ffffff",
+    "product_on_sale_color": "#f94c43",
+    "button_background": "#febd17",
+    "button_text_color": "#0d0c0c",
+    "header_background": "#febd17",
+    "header_heading_color": "#1c1b1b",
+    "header_light_color": "#ffffff",
+    "footer_background": "#000000",
+    "footer_heading_color": "#febd17",
+    "footer_text_color": "#ffffff",
+    "navigation_background": "#febd17",
+    "navigation_text_color": "#ffffff",
+    "newsletter_popup_background": "#1c1b1b",
+    "newsletter_popup_text_color": "#ffffff",
+    "secondary_elements_background": "#1c1b1b",
+    "secondary_elements_text_color": "#ffffff",
+    "heading_font": "oswald_n7",
+    "heading_size": "large",
+    "uppercase_heading": true,
+    "text_font": "oswald_n4",
+    "base_text_font_size": 13,
+    "show_page_transition": false,
+    "search_mode": "product,article",
+    "product_show_price_on_hover": false,
+    "product_show_secondary_image": true,
+    "product_info_alignment": "center",
+    "product_image_size": "natural",
+    "product_list_horizontal_spacing": "medium",
+    "product_list_vertical_spacing": "small",
+    "cart_type": "drawer",
+    "cart_enable_notes": true,
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "50",
+    "social_facebook": "#",
+    "social_twitter": "#",
+    "favicon": "shopify:\/\/shop_images\/favicon-96x96.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_dewalt_png.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#febd17",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#0d0c0c",
+    "checkout_accent_color": "#0d0c0c",
+    "checkout_button_color": "#febd17",
+    "checkout_error_color": "#f94c43",
+    "sections": {
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "main-menu",
+          "secondary_menu": "secondmenumobile",
+          "show_social_media": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable_bar": true,
+          "home_page_only": false,
+          "background": "#000000",
+          "text_color": "#ffffff",
+          "content": "FREE SHIPPING ON ORDERS OVER £50",
+          "link": "#"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "3d0563d4-820a-472e-a66e-ba1967d61873": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "FOOTWEAR",
+              "push_1_image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2021-03-25_a_la_s_8.46.31_p._m..png",
+              "push_1_heading": "Fargo",
+              "push_1_subheading": "SHOP NOW",
+              "push_1_url": "shopify:\/\/products\/fargo",
+              "push_2_image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2021-03-25_a_la_s_8.46.52_p._m..png",
+              "push_2_heading": "WATERPROOF RANGE",
+              "push_2_subheading": "SHOP NOW",
+              "push_2_url": "shopify:\/\/collections\/footwear-waterproof-work"
+            }
+          },
+          "40c903cf-d40f-4b60-9ea0-85a66493d0bc": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "WORKWEAR",
+              "push_1_image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2021-03-25_a_la_s_9.05.11_p._m..png",
+              "push_1_heading": "PRO TRADESMAN",
+              "push_1_subheading": "SHOP NOW",
+              "push_1_url": "shopify:\/\/products\/protradesman-trouser",
+              "push_2_image": "shopify:\/\/shop_images\/Knee-pads.jpg",
+              "push_2_heading": "ACCESSORIES",
+              "push_2_subheading": "SHOP NOW",
+              "push_2_url": "shopify:\/\/collections\/accessories"
+            }
+          },
+          "ce91eedd-8015-4a09-a3f9-b4b7c4838140": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "ACCESSORIES",
+              "push_1_image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2021-03-25_a_la_s_9.05.11_p._m..png",
+              "push_1_heading": "PRO TRADESMAN",
+              "push_1_subheading": "SHOP NOW",
+              "push_1_url": "shopify:\/\/products\/protradesman-trouser",
+              "push_2_image": "shopify:\/\/shop_images\/740x460_Lifestyle_-_Challenger_boots.jpg",
+              "push_2_heading": "FOOTWEAR",
+              "push_2_subheading": "SHOP NOW",
+              "push_2_url": "shopify:\/\/collections\/footwear"
+            }
+          },
+          "5ed98c65-2787-4a92-83a5-71c543a6d75a": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "COLLECTIONS",
+              "push_1_heading": "Example heading",
+              "push_1_subheading": "Example sub-heading",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading"
+            }
+          }
+        },
+        "block_order": [
+          "3d0563d4-820a-472e-a66e-ba1967d61873",
+          "40c903cf-d40f-4b60-9ea0-85a66493d0bc",
+          "ce91eedd-8015-4a09-a3f9-b4b7c4838140",
+          "5ed98c65-2787-4a92-83a5-71c543a6d75a"
+        ],
+        "settings": {
+          "use_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/logo_dewalt_png.png",
+          "logo_max_width": 170,
+          "mobile_logo_max_width": 90,
+          "show_currency_selector": true,
+          "show_locale_selector": true,
+          "heading": "SAFETY",
+          "button_link": "shopify:\/\/pages\/safety-ratings",
+          "heading2": "NEWS",
+          "button_link2": "shopify:\/\/blogs\/news",
+          "heading3": "CONTACT",
+          "button_link3": "shopify:\/\/pages\/contact-us",
+          "navigation_menu": "main-menu",
+          "navigation_style": "inline",
+          "show_icons": true,
+          "enable_transparent_header": false,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": true,
+          "transparent_text_color": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "About",
+              "content": "<p>We put the best technologies, materials and craftsmanship into everything we do, and we&#x27;ve been doing it this way for over 80 years.<\/p>",
+              "show_social_media": true
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "8c2260cb-f976-46b7-86e0-186789d69618": {
+            "type": "links2",
+            "settings": {
+              "menu": "footer-1"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "content": "<p>Subscribe to get notified about product launches, special offers and company news.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "8c2260cb-f976-46b7-86e0-186789d69618",
+          "footer-2"
+        ],
+        "settings": {
+          "show_payment_methods": true,
+          "show_currency_selector": true,
+          "show_locale_selector": true
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner_c611f086-2e80-4053-bf3b-96cee21a1e70.jpg",
+              "apply_overlay": true,
+              "content_position": "middleLeft",
+              "subheading": "Workwear",
+              "title": "Guaranteed",
+              "title2": "Tough",
+              "button_1_text": "EXPLORE THE RANGE",
+              "button_1_link": "shopify:\/\/collections",
+              "button_2_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "slide-0"
+        ],
+        "settings": {
+          "show_fullscreen": true,
+          "show_arrow": true,
+          "autoplay": true,
+          "cycle_speed": 5,
+          "text_color": "#ffffff",
+          "button_color": "#1c1b1b",
+          "button_background": "#febd17"
+        }
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "42b54b45-669e-4f5a-804a-d6303005fdfd": {
+            "type": "collection",
+            "settings": {
+              "collection": "footwear",
+              "title": "FOOTWEAR",
+              "grid_items_count": 8,
+              "button_text": "SHOP LATEST PRODUCTS"
+            }
+          },
+          "featured-collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "workwear",
+              "title": "WORKWEAR",
+              "grid_items_count": 8,
+              "button_text": "SHOP LATEST PRODUCTS"
+            }
+          }
+        },
+        "block_order": [
+          "42b54b45-669e-4f5a-804a-d6303005fdfd",
+          "featured-collection-0"
+        ],
+        "settings": {
+          "title": "NEW ARRIVALS",
+          "layout_mode": "carousel",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": true,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 3
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "apply_overlay": true
+            }
+          },
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "apply_overlay": true
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "apply_overlay": true
+            }
+          }
+        },
+        "block_order": [
+          "collection-0",
+          "collection-1",
+          "collection-2"
+        ],
+        "settings": {
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "stack_on_mobile": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "subheading": "Featured product",
+          "title": "",
+          "show_headings_on_mobile": true,
+          "product": "",
+          "show_vendor": false,
+          "show_sku": false,
+          "show_description": true,
+          "description_below_add_to_cart": false,
+          "selector_mode": "block",
+          "show_color_swatch": true,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": false,
+          "show_pickup_availability": false
+        }
+      },
+      "timeline": {
+        "type": "timeline",
+        "blocks": {
+          "item-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/boots_rain.jpg",
+              "apply_overlay": true,
+              "title": "WATERPROOF",
+              "subheading": "technology",
+              "heading": "waterproof",
+              "content": "<p>Footwear constructed with Membrane breathable waterproof technology built to keep feet dry in all conditions.<\/p>"
+            }
+          },
+          "item-1": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/kevlar.jpg",
+              "apply_overlay": true,
+              "title": "KEVLAR",
+              "subheading": "technology",
+              "heading": "Kevlar",
+              "content": "<p>On an equal weight basis, Kevlar is up to 5x stronger then steel and up to 3x stronger than leather making it one of the toughest and  most durable fabrics.<\/p>"
+            }
+          },
+          "item-2": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sympatex.png",
+              "apply_overlay": true,
+              "title": "SYMPATEX",
+              "subheading": "Technology",
+              "heading": "SYMPATEX",
+              "content": "<p>Waterproof breathable membrance technology, allowing your feet to remain dry and cool.<\/p>"
+            }
+          },
+          "4909b849-6ccd-4e5d-878f-f3ef8ac9b717": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PWS.png",
+              "apply_overlay": true,
+              "title": "PWS",
+              "subheading": "TECHNOLOGY",
+              "heading": "PWS",
+              "content": "<p>Performance Wicking System: High breathability to keep you cool during your toughest tasks.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "item-0",
+          "item-1",
+          "item-2",
+          "4909b849-6ccd-4e5d-878f-f3ef8ac9b717"
+        ],
+        "settings": {
+          "text_color": "#ffffff"
+        }
+      },
+      "blog-posts": {
+        "type": "blog-posts",
+        "disabled": true,
+        "blocks": {
+          "blog-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "news"
+            }
+          }
+        },
+        "block_order": [
+          "blog-0"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "Featured article",
+          "show_category": false,
+          "button_text": "View all articles"
+        }
+      },
+      "shop-the-look": {
+        "type": "shop-the-look",
+        "disabled": true,
+        "blocks": {
+          "look-0": {
+            "type": "look",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DWC114-021_1.jpg",
+              "dot_style": "light",
+              "product_1": "oxide-tee",
+              "product_1_horizontal_position": 25,
+              "product_1_vertical_position": 40,
+              "product_2": "barton-jacket",
+              "product_2_horizontal_position": 45,
+              "product_2_vertical_position": 65,
+              "product_3": "henderson",
+              "product_3_horizontal_position": 70,
+              "product_3_vertical_position": 50
+            }
+          },
+          "look-1": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 25,
+              "product_1_vertical_position": 45,
+              "product_2": "",
+              "product_2_horizontal_position": 55,
+              "product_2_vertical_position": 30,
+              "product_3": "",
+              "product_3_horizontal_position": 65,
+              "product_3_vertical_position": 60
+            }
+          },
+          "22cb2213-7a80-424c-aaa7-2624038b1bba": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 15,
+              "product_1_vertical_position": 15,
+              "product_2": "",
+              "product_2_horizontal_position": 50,
+              "product_2_vertical_position": 50,
+              "product_3": "",
+              "product_3_horizontal_position": 85,
+              "product_3_vertical_position": 85
+            }
+          }
+        },
+        "block_order": [
+          "look-0",
+          "look-1",
+          "22cb2213-7a80-424c-aaa7-2624038b1bba"
+        ],
+        "settings": {
+          "subheading": "Shop",
+          "title": "Our looks",
+          "show_mobile_product_info": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_info": true,
+          "show_collection_image": false,
+          "apply_overlay": true,
+          "show_color_swatch": true,
+          "show_vendor": false,
+          "collection_image_size": "small",
+          "show_sort_by": true,
+          "show_layout_switch": true,
+          "toolbar_position": "top",
+          "filter_position": "sidebar",
+          "filter_mode": "tag",
+          "show_filter_color_swatch": false,
+          "filter_menu": "",
+          "grid_items_per_page": 12,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 3
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "show_section": false,
+          "title": "Recently viewed",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": true
+        }
+      },
+      "collection-footer": {
+        "type": "collection-footer",
+        "settings": {
+          "show_section": false,
+          "text_color": "#ffffff",
+          "apply_overlay": true,
+          "title": "Our story",
+          "content": "<p>Add your own custom content to explain your processes...<\/p>"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_share_buttons": false,
+          "show_vendor": false,
+          "show_sku": false,
+          "show_taxes_included": true,
+          "description_below_add_to_cart": false,
+          "selector_mode": "block",
+          "show_color_swatch": true,
+          "show_color_carousel": true,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": true,
+          "inventory_quantity_threshold": 0,
+          "show_price_in_button": false,
+          "show_payment_button": true,
+          "show_pickup_availability": false,
+          "image_size": "medium",
+          "stack_images": false,
+          "show_thumbnails": true,
+          "enable_image_zoom": true,
+          "enable_video_looping": true,
+          "tab_page_1_handle": "shipping-returns",
+          "tab_page_2_handle": "",
+          "reviews_enabled": true,
+          "featured_image_size": "small"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": true,
+          "show_only_on_index": false,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Welcome",
+          "content": "<p>Welcome to our brand new site! Please take the time to look around, register for an account to stay up to date with the latest product news and promotions. <\/p>",
+          "show_newsletter": false,
+          "apparition_delay": 5
+        }
+      },
+      "1616627196af45ff88": {
+        "type": "home-3col-section",
+        "blocks": {
+          "80d4cfce-d303-4278-a82e-8a029bab3b34": {
+            "type": "text",
+            "settings": {
+              "heading": "WATERPROOF",
+              "button_link": "shopify:\/\/collections\/waterproof-work"
+            }
+          },
+          "d3e00451-bf77-4e27-a667-b3dd23fb1170": {
+            "type": "text",
+            "settings": {
+              "heading": "BESTSELLERS",
+              "button_link": "shopify:\/\/collections\/all"
+            }
+          },
+          "92f8f9c6-1b95-41a6-aabe-d743c24893bb": {
+            "type": "text",
+            "settings": {
+              "heading": "SAFETY STANDARDS",
+              "button_link": "shopify:\/\/pages\/safety-ratings"
+            }
+          }
+        },
+        "block_order": [
+          "80d4cfce-d303-4278-a82e-8a029bab3b34",
+          "d3e00451-bf77-4e27-a667-b3dd23fb1170",
+          "92f8f9c6-1b95-41a6-aabe-d743c24893bb"
+        ],
+        "settings": {}
+      },
+      "1616629306d49f80e1": {
+        "type": "slideshow",
+        "blocks": {
+          "161662930674d48989-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner.jpg",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "heritage work range",
+              "title": "keep it",
+              "title2": "classic",
+              "button_1_text": "explore the range",
+              "button_1_link": "shopify:\/\/collections\/heritage-work",
+              "button_2_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "161662930674d48989-0"
+        ],
+        "settings": {
+          "show_fullscreen": true,
+          "show_arrow": false,
+          "autoplay": true,
+          "cycle_speed": 5,
+          "text_color": "#ffffff",
+          "button_color": "#0d0c0c",
+          "button_background": "#febd17"
+        }
+      },
+      "1616631577cdb385a7": {
+        "type": "featured-collections",
+        "blocks": {
+          "6c90cff2-4d06-449e-a775-f90df85d0323": {
+            "type": "collection",
+            "settings": {
+              "collection": "active-work-workwear",
+              "title": "ACTIVE WORK",
+              "grid_items_count": 3,
+              "button_text": "SHOP ACTIVE WORKWEAR"
+            }
+          },
+          "1616631577cdb385a7-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "heritage-workwear",
+              "title": "HERITAGE WORK",
+              "grid_items_count": 3,
+              "button_text": "SHOP HERITAGE WORKWEAR"
+            }
+          }
+        },
+        "block_order": [
+          "6c90cff2-4d06-449e-a775-f90df85d0323",
+          "1616631577cdb385a7-0"
+        ],
+        "settings": {
+          "title": "WORKWEAR",
+          "layout_mode": "carousel",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "1",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "1616632408a10c7603": {
+        "type": "image-with-text-overlay",
+        "disabled": true,
+        "settings": {
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/banner_2.jpg",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 5,
+          "subheading": "WORKWEAR",
+          "title": "READY TO TACKLE IT ALL",
+          "content": "<p>DEWALT’s work categories contain products that are designed to focus on the specific challenges of each environment, job & user with a system of dress that is built with this in mind. Built to last & Guaranteed Tough in any situation. <\/p>",
+          "heading": "SHOP WORKWEAR",
+          "button_link": "shopify:\/\/collections\/workwear"
+        }
+      },
+      "1616638123a38b831b": {
+        "type": "image-with-text-home-dewalt",
+        "settings": {
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/texture_background.jpg",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 0,
+          "subheading": "",
+          "title": "DEWALT®️ RANGE OF WORKWEAR, THE MARK OF A PRO",
+          "content": "<p>The mark of a pro; never cut corners. It's not a choice. It's a way to handle your business and it's how we go about building tools. Whether they go in your hand or on you, it's all the same to us. We put the best technologies, materials and craftsmanship into everything we do, and we've been doing it this way for over 80 years. The dewalt range of workwear and footwear is designed for the professional tradesman\/craftsman, whether working inside where light weight, flexible, and breathable items are needed or outside in the mud, water, snow and ice. We have a range of products tailored to your needs.<\/p>",
+          "heading": ""
+        }
+      },
+      "161664026416a0f80a": {
+        "type": "2col-Text-image-right",
+        "disabled": true,
+        "settings": {
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/DeWalt_OneStep.png",
+          "text_color": "#ffffff",
+          "overlay_color": "rgba(0,0,0,0)",
+          "overlay_opacity": 0,
+          "subheading": "FOOTWEAR",
+          "title": "ONE STEP AHEAD",
+          "content": "<p>The DEWALT range of footwear is designed for the professional tradesman\/craftsman. Whether working inside where lightweight, flexible, breathable footwear is needed or outside in the mud, water, snow and ice. We have a range of products tailored to your needs.<\/p>",
+          "heading": "",
+          "button_link": "shopify:\/\/pages\/about-us"
+        }
+      },
+      "1616641384b93429dc": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "section_size": "normal",
+          "image": "shopify:\/\/shop_images\/UKMap1.jpg",
+          "text_color": "#febd17",
+          "overlay_color": "rgba(0,0,0,0)",
+          "overlay_opacity": 0,
+          "image-icon": "shopify:\/\/shop_images\/pin_icon_cf436b68-ec93-43ca-af36-32d1e0335698.png",
+          "subheading": "",
+          "title": "FIND A RETAILER",
+          "content": "",
+          "heading": "SEARCH NOW",
+          "button_link": "shopify:\/\/pages\/find-a-retailer"
+        }
+      },
+      "1616713974cecb1094": {
+        "type": "home-3col-section",
+        "blocks": {
+          "72ad0236-33fb-45eb-9c19-88afa893dddf": {
+            "type": "text",
+            "settings": {
+              "heading": "GUARANTEED TOUGH.",
+              "button_link": "#"
+            }
+          }
+        },
+        "block_order": [
+          "72ad0236-33fb-45eb-9c19-88afa893dddf"
+        ],
+        "settings": {}
+      },
+      "image-with-text-overlay": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "section_size": "normal",
+          "image": "shopify:\/\/shop_images\/UKMap1.jpg",
+          "text_color": "#febd17",
+          "overlay_color": "#000000",
+          "overlay_opacity": 30,
+          "image-icon": "shopify:\/\/shop_images\/pin_icon_cf436b68-ec93-43ca-af36-32d1e0335698.png",
+          "subheading": "",
+          "title": "find a retailer",
+          "content": "",
+          "heading": "search now",
+          "button_link": "shopify:\/\/pages\/find-a-retailer"
+        }
+      },
+      "home-3col-section": {
+        "type": "home-3col-section",
+        "blocks": {
+          "4688b279-ce9a-40e5-9157-4d91332fa643": {
+            "type": "text",
+            "settings": {
+              "heading": "GUARANTEED TOUGH."
+            }
+          }
+        },
+        "block_order": [
+          "4688b279-ce9a-40e5-9157-4d91332fa643"
+        ],
+        "settings": {}
+      },
+      "about-section3": {
+        "type": "about-section3",
+        "settings": {
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/Enmascarar_grupo_71.jpg",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 55,
+          "subheading": "ACCESSORIES",
+          "title": "BUILT TO LAST",
+          "content": "<p>Whatever the conditions, you need to know that you have the right equipment for the job. Designed and built to tackle even the most difficult task, a targeted focus on the challenges of modern work means that our accessories will never let you down.<\/p>",
+          "heading": ""
+        }
+      },
+      "about-section-1": {
+        "type": "about-section-1",
+        "settings": {
+          "section_size": "large",
+          "text_color": "#000000",
+          "overlay_color": "#000000",
+          "overlay_opacity": 0,
+          "subheading": "About",
+          "title": "DEWALT WORKWEAR: THE MARK OF A PRO",
+          "content": "<p>Never cut corners. It’s not a choice. It’s a way to handle your business and it’s how we go about building tools. Whether they go in your hand or on you, it’s all the same to us. We put the best technologies, materials and craftsmanship into everything we do, and we’ve been doing it this way for over 80 years. The dewalt range of workwear and footwear is designed for the professional tradesman\/craftsman, whether working inside where light weight, flexible, and breathable items are needed or outside in the mud, water, snow and ice. We have a range of products tailored to your needs.<\/p>",
+          "heading": ""
+        }
+      },
+      "2col-Text-image-right": {
+        "type": "2col-Text-image-right",
+        "settings": {
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/DeWalt_OneStep.png",
+          "text_color": "#ffffff",
+          "overlay_color": "#d2d3d4",
+          "overlay_opacity": 0,
+          "subheading": "Footwear",
+          "title": "One Step Ahead",
+          "content": "<p>The DEWALT range of footwear is designed for the professional tradesman\/craftsman. Whether working inside where lightweight, flexible, breathable footwear is needed or outside in the mud, water, snow and ice. We have a range of products tailored to your needs. <\/p>",
+          "heading": "",
+          "button_link": "#"
+        }
+      },
+      "2col-Text-image-left": {
+        "type": "2col-Text-image-left",
+        "settings": {
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/Grupo_1117.jpg",
+          "text_color": "#ffffff",
+          "overlay_color": "rgba(0,0,0,0)",
+          "overlay_opacity": 0,
+          "subheading": "WORKWEAR",
+          "title": "ALL CONDITIONS",
+          "content": "<p>Whether you are indoors or out, dealing with heat or cold, the rain or dust, or moving from one environment to the other, every job is different &amp; every task is built on its own challenges. Whether you need flexibility, protection or adaptability in multiple conditions, it is critical that you have the right apparel for the right job.<\/p>",
+          "heading": "",
+          "button_link": "#"
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "page-contact-template-0": {
+            "type": "text",
+            "settings": {
+              "title": "Your phone (optional)",
+              "use_long_text": false,
+              "is_required": false
+            }
+          }
+        },
+        "block_order": [
+          "page-contact-template-0"
+        ],
+        "settings": {
+          "heading": "",
+          "description": "<p>Want to get in touch with us? Just fill out the form below and we'll get back to you as soon as possible.<\/p>",
+          "phonenumber": "",
+          "mailaddress": "enquiries@dewaltworkwear.co.uk",
+          "daysfield": "",
+          "daysfield2": "",
+          "image-icon": "shopify:\/\/shop_images\/unnamed-1.png",
+          "image-icon2": "shopify:\/\/shop_images\/unnamed.png"
+        }
+      },
+      "contact-section1": {
+        "type": "contact-section1",
+        "settings": {
+          "section_size": "large",
+          "text_color": "#1c1b1b",
+          "overlay_color": "#6a6a6a",
+          "overlay_opacity": 20,
+          "subheading": "DELIVERY & RETURNS",
+          "title": "",
+          "content": "<p>All orders are despatched on a standard carrier service and should be delivered to your door in 2-3 working days of placing your order. Please note that orders placed between 2pm Friday and 8am Monday will not be processed until Monday morning. Our warehouses are closed on Bank Holidays and will not process orders until the following business day.<br\/><br\/>If you would like to return your UNWORN product within 14 days of purchase, we will provide a shipping label for return postage. Unfortunately, we cannot refund your original delivery charge.<br\/><br\/>If your goods are defective when you receive them we will provide a shipping label for return postage, and either exchange for a replacement or a refund will be given.<br\/>Non-faulty products packaging must be suitable for resale and free from damage, writing, tape, labels etc. Failure to return items and its packaging in a resalable condition will affect your refund. To prevent this from occurring please over pack your item to ensure that the packaging is protected<\/p>",
+          "heading": ""
+        }
+      },
+      "contact-section-3": {
+        "type": "contact-section-3",
+        "settings": {
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/hero.jpg",
+          "text_color": "#ffffff",
+          "overlay_color": "rgba(0,0,0,0)",
+          "overlay_opacity": 0,
+          "subheading": "",
+          "title": "",
+          "content": "",
+          "heading": ""
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Order"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "How long does it take to ship my order?",
+              "answer": "<p>All orders are despatched on a standard carrier service and should be delivered to your door in 2-3 working days of placing your order. Please note that orders placed between 2pm Friday and 8am Monday will not be processed until Monday morning. Our warehouses are closed on Bank Holidays and will not process orders until the following business day.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "question",
+            "settings": {
+              "title": "What shipping carriers do you use?",
+              "answer": "<p>We use DPD as our courier for all customer shipments, including for the returns process if required.<\/p>"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "separator",
+            "settings": {
+              "title": "Delivery & Returns"
+            }
+          },
+          "page-faq-template-5": {
+            "type": "question",
+            "settings": {
+              "title": "Is delivery free in the UK?",
+              "answer": "<p>Delivery is free for all order value of £50.00 and above. For orders under the value of £50.00 an £8.50 delivery charge will be applied. Please note that we are unable to refund this delivery charge in the event the item is required to be returned. <\/p>"
+            }
+          },
+          "page-faq-template-6": {
+            "type": "question",
+            "settings": {
+              "title": "Do you deliver internationally?",
+              "answer": "<p>We deliver to all areas of the UK Mainland.<\/p>"
+            }
+          },
+          "0a37e8a2-b7d4-4b23-8947-85b3f6cebbb6": {
+            "type": "question",
+            "settings": {
+              "title": "What is your returns policy?",
+              "answer": "<p>If you would like to return your UNWORN product within 14 days of purchase, we will provide a shipping label for return postage. Unfortunately, we cannot refund your original delivery charge.<br\/><br\/>If your goods are defective when you receive them we will provide a shipping label for return postage, and either exchange for a replacement or a refund will be given.<\/p><p>Non-faulty products packaging must be suitable for resale and free from damage, writing, tape, labels etc. Failure to return items and its packaging in a resalable condition will affect your refund. To prevent this from occurring please over pack your item to ensure that the packaging is protected<\/p>"
+            }
+          },
+          "page-faq-template-7": {
+            "type": "separator",
+            "settings": {
+              "title": "Account"
+            }
+          },
+          "page-faq-template-8": {
+            "type": "question",
+            "settings": {
+              "title": "Do I have to create an account to order?",
+              "answer": "<p>Account creation is not mandatory for placing orders, however we recommend creating an account to make store and track your order history, and make your future experiences as slick as possible. You can also subscribe to be kept up to date with future promotions, offers, useful features and brand new product launches via email.<\/p>"
+            }
+          },
+          "8622ec6a-e37c-4726-8f49-a53c0b847292": {
+            "type": "separator",
+            "settings": {
+              "title": "Payment"
+            }
+          },
+          "699b0305-e3f0-4b6f-bd9a-f44fe18cb37e": {
+            "type": "question",
+            "settings": {
+              "title": "What types of payment do you accept?",
+              "answer": "<p>We accept all major Debit and Credit cards, as well as payment via Apple Pay, Google Pay, and PayPal<\/p>"
+            }
+          },
+          "4eef8614-6f39-4961-b197-984eb8ccce35": {
+            "type": "question",
+            "settings": {
+              "title": "When will my card be charged?",
+              "answer": "<p>Your payment option will be charged at the point of submitting the order to us. <\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-3",
+          "page-faq-template-4",
+          "page-faq-template-5",
+          "page-faq-template-6",
+          "0a37e8a2-b7d4-4b23-8947-85b3f6cebbb6",
+          "page-faq-template-7",
+          "page-faq-template-8",
+          "8622ec6a-e37c-4726-8f49-a53c0b847292",
+          "699b0305-e3f0-4b6f-bd9a-f44fe18cb37e",
+          "4eef8614-6f39-4961-b197-984eb8ccce35"
+        ],
+        "settings": {}
+      },
+      "safety": {
+        "type": "safety",
+        "blocks": {
+          "69002220-ff53-408b-9336-d0af94400388": {
+            "type": "text",
+            "settings": {
+              "heading": "SB",
+              "heading2": "<p>Basic safety protection<\/p><p>200 joule toe cap<\/p>"
+            }
+          },
+          "034887a7-748c-40e5-8be5-0c599d48084c": {
+            "type": "text",
+            "settings": {
+              "heading": "SBP",
+              "heading2": "<p>Basic safety protection<\/p><p>200 joule toe cap<\/p><p>Penetration resistant midsole<\/p>"
+            }
+          },
+          "da08423b-ebf8-4eb0-ba4b-072b458f97e2": {
+            "type": "text",
+            "settings": {
+              "heading": "S1",
+              "heading2": "<p>200 joule toe cap<\/p><p>Closed seat region<\/p><p>Anti-static Energy absorptio<\/p>"
+            }
+          },
+          "ca7a87bf-27e6-4cde-abba-90c81be35b19": {
+            "type": "text",
+            "settings": {
+              "heading": "S1P",
+              "heading2": "<p>200 joule toe cap<\/p><p>Closed seat region<\/p><p>Anti-static Energy absorption<\/p><p>Penetration Resistant Midsole.<\/p>"
+            }
+          },
+          "fb51a7ec-9c2f-4f0c-b536-233bab80f8d9": {
+            "type": "text",
+            "settings": {
+              "heading": "S2",
+              "heading2": "<p>200 joule toe cap<\/p><p>Closed seat region<\/p><p>Anti-static Energy absorption<\/p><p>Water absorption.<\/p>"
+            }
+          },
+          "fd3e5059-ae5b-4729-976c-b618b5a09be2": {
+            "type": "text",
+            "settings": {
+              "heading": "S3",
+              "heading2": "<p>200 joule toe cap<\/p><p>Closed seat region<\/p><p>Anti-static Energy absorption<\/p><p>Penetration resistant midsole<\/p><p>Water absorption and penetration resistant<\/p><p>Cleated outsole<\/p>"
+            }
+          },
+          "c70f5c34-7992-456b-b819-911fb7541e88": {
+            "type": "text",
+            "settings": {
+              "heading": "S4",
+              "heading2": "<p>200 joule toe cap<\/p><p>All rubber or all polymeric anti-static footwear<\/p><p>Energy absorption<\/p><p><\/p>"
+            }
+          },
+          "d3b70787-47ac-4ab0-95f5-d27972520f2b": {
+            "type": "text",
+            "settings": {
+              "heading": "S5",
+              "heading2": "<p>200 joule toe cap<\/p><p>All rubber or all polymeric anti-static footwear<\/p><p>Energy absorption<\/p><p>Penetration resistant midsole<\/p><p>Cleated outsole<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "69002220-ff53-408b-9336-d0af94400388",
+          "034887a7-748c-40e5-8be5-0c599d48084c",
+          "da08423b-ebf8-4eb0-ba4b-072b458f97e2",
+          "ca7a87bf-27e6-4cde-abba-90c81be35b19",
+          "fb51a7ec-9c2f-4f0c-b536-233bab80f8d9",
+          "fd3e5059-ae5b-4729-976c-b618b5a09be2",
+          "c70f5c34-7992-456b-b819-911fb7541e88",
+          "d3b70787-47ac-4ab0-95f5-d27972520f2b"
+        ],
+        "settings": {
+          "description": "<p><strong>Choosing the right safety footwear is important. All day comfort is also important however your safety is paramount. It is not just about toe protection , there are many additional levels of protection to think about. Underfoot protection, anti-static, water resistant these are just some you need to consider<\/strong><\/p>",
+          "description2": "<p>A large degree of workplace accidents involve slips and trips so the level of slip resistance should also be considered in your job role. Make sure you choose footwear that has the correct level of protection for your industry be it warehouse, electrician, driver, hospitality or heavy construction.<\/p>",
+          "description3": "<p>Our safety footwear has been manufactured in accordance with CE EN 20345:2011 standards. The safety ratings below are a guide to choosing the correct footwear for your job requirement. The rating for each style is clearly marked on all footwear. It is always advisable that a risk assessment is carried out in order to achieve the correct rating required.<\/p>",
+          "description4": "<p>SAFETY RATINGS CE EN20345:2011<\/p>"
+        }
+      },
+      "safety-2": {
+        "type": "safety-2",
+        "blocks": {
+          "eb3b5d65-3b0e-4d32-9111-fbc0c2d9b815": {
+            "type": "text",
+            "settings": {
+              "heading3": "A",
+              "heading4": "<p>Anti-static<\/p>"
+            }
+          },
+          "66b9e0b3-6cd5-4177-ab0a-cb28f9fa8969": {
+            "type": "text",
+            "settings": {
+              "heading3": "AN",
+              "heading4": "<p>Ankle Protection<\/p>"
+            }
+          },
+          "3931d8fe-dad6-44f8-a19a-8fd3ee3febc5": {
+            "type": "text",
+            "settings": {
+              "heading3": "C",
+              "heading4": "<p>Conductive Footwear<\/p>"
+            }
+          },
+          "a45af6a2-340e-4918-b4bf-8c66db569133": {
+            "type": "text",
+            "settings": {
+              "heading3": "CI",
+              "heading4": "<p>Cold Insulation<\/p>"
+            }
+          },
+          "18abaf2d-af1a-45a6-86e7-1844eaf0c499": {
+            "type": "text",
+            "settings": {
+              "heading3": "CR",
+              "heading4": "<p>Cut Resistant Upper<\/p>"
+            }
+          },
+          "1a6b49c2-cf8a-4e60-b3a6-41925daa084c": {
+            "type": "text",
+            "settings": {
+              "heading3": "E",
+              "heading4": "<p>Heel Energy Absorption<\/p>"
+            }
+          },
+          "8f6c72de-3e39-4904-903f-15c2865c0846": {
+            "type": "text",
+            "settings": {
+              "heading3": "ESD",
+              "heading4": "<p>Electro-static Dissipative<\/p>"
+            }
+          },
+          "2d39fea9-9dbc-496a-bf58-3639951fa65f": {
+            "type": "text",
+            "settings": {
+              "heading3": "FO",
+              "heading4": "<p>Fuel &amp; Oil Resistant Outsole<\/p>"
+            }
+          },
+          "1cc16a7c-7e07-4af9-a80f-09dfc5e290d4": {
+            "type": "text",
+            "settings": {
+              "heading3": "HI",
+              "heading4": "<p>Heat Insulation of Outsole Complex<\/p>"
+            }
+          },
+          "19f9f54f-69ed-454c-a9ed-bde4e10e305b": {
+            "type": "text",
+            "settings": {
+              "heading3": "HRO",
+              "heading4": "<p>Heat Resistant Outsole to 300o C<\/p>"
+            }
+          },
+          "cb593f1d-0bba-41e3-a175-4049a086757d": {
+            "type": "text",
+            "settings": {
+              "heading3": "M",
+              "heading4": "<p>Metatarsal Protection<\/p>"
+            }
+          },
+          "a8f31454-eec8-4352-b8a1-919eab015b11": {
+            "type": "text",
+            "settings": {
+              "heading3": "P",
+              "heading4": "<p>Penetration Resistant Midsole<\/p>"
+            }
+          },
+          "41c57d2d-10d2-41c4-b950-54395b72507f": {
+            "type": "text",
+            "settings": {
+              "heading3": "WR",
+              "heading4": "<p>Water Resistant<\/p>"
+            }
+          },
+          "3bd5c23a-627c-40bd-a2c6-6cb2d635f391": {
+            "type": "text",
+            "settings": {
+              "heading3": "WRU",
+              "heading4": "<p>Water Penetration Resistant Upper<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "eb3b5d65-3b0e-4d32-9111-fbc0c2d9b815",
+          "66b9e0b3-6cd5-4177-ab0a-cb28f9fa8969",
+          "3931d8fe-dad6-44f8-a19a-8fd3ee3febc5",
+          "a45af6a2-340e-4918-b4bf-8c66db569133",
+          "18abaf2d-af1a-45a6-86e7-1844eaf0c499",
+          "1a6b49c2-cf8a-4e60-b3a6-41925daa084c",
+          "8f6c72de-3e39-4904-903f-15c2865c0846",
+          "2d39fea9-9dbc-496a-bf58-3639951fa65f",
+          "1cc16a7c-7e07-4af9-a80f-09dfc5e290d4",
+          "19f9f54f-69ed-454c-a9ed-bde4e10e305b",
+          "cb593f1d-0bba-41e3-a175-4049a086757d",
+          "a8f31454-eec8-4352-b8a1-919eab015b11",
+          "41c57d2d-10d2-41c4-b950-54395b72507f",
+          "3bd5c23a-627c-40bd-a2c6-6cb2d635f391"
+        ],
+        "settings": {
+          "description5": "<p>ADDITIONAL SAFETY CATEGORY RATINGS<\/p>"
+        }
+      },
+      "safety-3": {
+        "type": "safety-3",
+        "blocks": {
+          "c94f40a8-9a2e-4b45-829b-94d55d7fc543": {
+            "type": "text",
+            "settings": {
+              "heading3": "SRA",
+              "heading4": "<p>Footwear is tested on clay tiles with sodium lauryl sulphate solution and meets a minimum Coefficient (CoF) of Friction of 0.32 tested flat &amp; CoF 0.28 tested at the heel.<\/p>"
+            }
+          },
+          "ee20e6a8-bf9d-4525-9597-e8be9758f747": {
+            "type": "text",
+            "settings": {
+              "heading3": "SRB",
+              "heading4": "<p>Footwear is tested on stainless steel with a glycerol solution and meets a CoF of 0.18 tested flat &amp; 0.13 tested at the heel.<\/p>"
+            }
+          },
+          "27190fd2-d878-40b3-8e82-8d18b7c45980": {
+            "type": "text",
+            "settings": {
+              "heading3": "SRC",
+              "heading4": "<p>Footwear indicates both SRA &amp; SRB are met.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "c94f40a8-9a2e-4b45-829b-94d55d7fc543",
+          "ee20e6a8-bf9d-4525-9597-e8be9758f747",
+          "27190fd2-d878-40b3-8e82-8d18b7c45980"
+        ],
+        "settings": {
+          "description5": "<p>SLIP RESISTANCE<\/p>"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "e6e97332-89a7-4097-9873-dfed136fe6c4": {
+            "type": "collection",
+            "settings": {
+              "collection": "active-work",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Collection",
+              "title": "Active Work",
+              "button_text": "View Collection"
+            }
+          },
+          "afeb6efd-0e53-4682-bdf4-1b658717d3c3": {
+            "type": "collection",
+            "settings": {
+              "collection": "extreme-work",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Collection",
+              "title": "Extreme Work",
+              "button_text": "View Collection"
+            }
+          },
+          "a16ef928-96a1-4c5e-bf6a-15591e2e11d9": {
+            "type": "collection",
+            "settings": {
+              "collection": "heritage-work",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Collection",
+              "title": "Heritage Work",
+              "button_text": "View Collection"
+            }
+          },
+          "29ea4a57-5740-4eda-b895-d82bc255569d": {
+            "type": "collection",
+            "settings": {
+              "collection": "hybrid-work",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Collection",
+              "title": "Hybrid Work",
+              "button_text": "View Collection"
+            }
+          },
+          "8881bd2c-569c-49a9-890e-69d452005454": {
+            "type": "collection",
+            "settings": {
+              "collection": "waterproof-work",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Collection",
+              "title": "Waterproof Work",
+              "button_text": "View Collection"
+            }
+          },
+          "d4bfdef7-c0c0-4a82-aeb6-90c5d956c6c9": {
+            "type": "collection",
+            "settings": {
+              "collection": "workwear",
+              "image": "shopify:\/\/shop_images\/740x460_Lifestyle_-_Challenger_boots.jpg",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Product",
+              "title": "All Workwear",
+              "button_text": "View products"
+            }
+          },
+          "2423cdbb-c78f-45db-8cd8-1aea611570d2": {
+            "type": "collection",
+            "settings": {
+              "collection": "footwear",
+              "image": "shopify:\/\/shop_images\/DWF-50031-122_9.jpg",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Product",
+              "title": "All Footwear",
+              "button_text": "View products"
+            }
+          },
+          "436155fd-65e1-4500-b5ad-18063e70fe1b": {
+            "type": "collection",
+            "settings": {
+              "collection": "accessories",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Product",
+              "title": "All Accessories",
+              "button_text": "View products"
+            }
+          }
+        },
+        "block_order": [
+          "e6e97332-89a7-4097-9873-dfed136fe6c4",
+          "afeb6efd-0e53-4682-bdf4-1b658717d3c3",
+          "a16ef928-96a1-4c5e-bf6a-15591e2e11d9",
+          "29ea4a57-5740-4eda-b895-d82bc255569d",
+          "8881bd2c-569c-49a9-890e-69d452005454",
+          "d4bfdef7-c0c0-4a82-aeb6-90c5d956c6c9",
+          "2423cdbb-c78f-45db-8cd8-1aea611570d2",
+          "436155fd-65e1-4500-b5ad-18063e70fe1b"
+        ],
+        "settings": {
+          "collections_to_show": "selected",
+          "image_size": "small",
+          "add_spacing": true,
+          "expand_collection": true,
+          "apply_overlay": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "collection-banner": {
+        "type": "collection-banner",
+        "settings": {
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/footwear.jpg",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 30,
+          "subheading": "The mark of a pro",
+          "title": "DESIGNED FOR & WORN BY PROFESSIONALS",
+          "content": "<p>never cut corners. It&#x27;s not a choice. It&#x27;s a way to handle your business and it&#x27;s how we go about building tools. Whether they go in your hand or on your feet, it&#x27;s all the same to us. We put the best technologies, materials and craftsmanship into everything we do, and we&#x27;ve been doing it this way for over 80 years.<\/p><p>The DeWalt range of footwear is designed for the professional tradesman\/craftsman, whether working inside where light weight, flexible, breathable footwear is needed or outside in the mud, water, snow and ice. We have a range of products tailored to your needs.<\/p>",
+          "heading": ""
+        }
+      },
+      "collection-tabs": {
+        "type": "collection-tabs",
+        "blocks": {
+          "b443aad0-ad1d-4983-a363-428e4016fc57": {
+            "type": "collection",
+            "settings": {
+              "collection": "workwear-extreme-work",
+              "title": "",
+              "grid_items_count": 2,
+              "button_text": "View all products"
+            }
+          },
+          "29239b3b-9afe-40b2-9f94-3b95940d2c0d": {
+            "type": "collection",
+            "settings": {
+              "collection": "active",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          },
+          "3e129d87-3b15-4fca-9d0d-9c6cba334ce6": {
+            "type": "collection",
+            "settings": {
+              "collection": "heritage",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          },
+          "9d5ecdb1-6169-47b9-b563-62d05f2416ce": {
+            "type": "collection",
+            "settings": {
+              "collection": "hybrid",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          },
+          "1bd38d45-a548-4fd9-a169-528c41fd14f9": {
+            "type": "collection",
+            "settings": {
+              "collection": "workwear",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          },
+          "62bd890e-6697-4fc9-85c2-56b7fcd1777e": {
+            "type": "collection",
+            "settings": {
+              "collection": "footwear",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "b443aad0-ad1d-4983-a363-428e4016fc57",
+          "29239b3b-9afe-40b2-9f94-3b95940d2c0d",
+          "3e129d87-3b15-4fca-9d0d-9c6cba334ce6",
+          "9d5ecdb1-6169-47b9-b563-62d05f2416ce",
+          "1bd38d45-a548-4fd9-a169-528c41fd14f9",
+          "62bd890e-6697-4fc9-85c2-56b7fcd1777e"
+        ],
+        "settings": {
+          "title": "",
+          "layout_mode": "carousel",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 2
+        }
+      },
+      "collection-banner2": {
+        "type": "collection-banner2",
+        "settings": {
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/workwear.jpg",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 30,
+          "subheading": "WORKWEAR",
+          "title": "ALL CONDITIONS",
+          "content": "<p>EVERY JOB IS ITS OWN CHALLENGE: Wheter you are indoors or out, dealing with heat or col, the rain or dust or moving from One environment to the other every job is different &amp; every task is built on its own challenges. Whether you need flexibility, protection or be adaptability in multiple conditions it is critical that you have the right apparel for the right job. DeWalt&#x27;s work categories contain products that are designed to focus on the specific challenges of <\/p><p>each environment, job &amp; user <\/p><p>with a system of dress that is built with this in mind. Built to last &amp; Guaranteed Tough in any situation.<\/p>",
+          "heading": ""
+        }
+      },
+      "product-customfields": {
+        "type": "product-customfields",
+        "settings": {
+          "cdnchange": "",
+          "heading": "",
+          "safetyratings": "SAFETY RATINGS",
+          "safetyratings2": "SLIP RATINGS",
+          "safetyratings3": "TECHNOLOGY",
+          "description": ""
+        }
+      },
+      "collection-banner3": {
+        "type": "collection-banner3",
+        "settings": {
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/Enmascarar_grupo_71_b41dd348-2354-4bcc-886a-03a2ba3d474a.jpg",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 30,
+          "subheading": "ACCESSORIES",
+          "title": "ALL CONDITIONS",
+          "content": "<p>Whatever the conditions, you need to know that you have the right equipment for the job. Designed and built to tackle even the most difficult tasks, a targeted focus on the challenges of modern work means that our accessories will never let you down.<\/p>",
+          "heading": ""
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "show_rss": true,
+          "show_tags": true,
+          "show_featured_article": true,
+          "show_category": true
+        }
+      },
+      "shop-now": {
+        "type": "shop-now",
+        "blocks": {
+          "07ef3675-2f98-442c-a16f-ad726661bd6b": {
+            "type": "quote",
+            "settings": {
+              "content": "<p>THE TOOL YOU TRUST ALL DAY EVERYDAY<\/p>",
+              "author": ""
+            }
+          }
+        },
+        "block_order": [
+          "07ef3675-2f98-442c-a16f-ad726661bd6b"
+        ],
+        "settings": {
+          "show_section": true,
+          "title": "BEST SELLING",
+          "collection": "all",
+          "grid_items_count": 12,
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "collection-banner-down": {
+        "type": "collection-banner-down",
+        "settings": {
+          "section_size": "normal",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 30,
+          "subheading": "",
+          "title": "Tell your story",
+          "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
+          "heading": ""
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_article_image": true,
+          "show_date": true,
+          "show_category": false,
+          "show_author": true,
+          "show_share_buttons": true
+        }
+      },
+      "workwearmenu": {
+        "type": "workwearmenu",
+        "blocks": {
+          "93f9ddcd-d58c-44ae-b1eb-ff30fd9345ef": {
+            "type": "text",
+            "settings": {
+              "heading": "Active Work",
+              "button_link": "shopify:\/\/collections\/workwear-active-work"
+            }
+          },
+          "79d831ac-f466-456f-8b6a-322f26e2e033": {
+            "type": "text",
+            "settings": {
+              "heading": "Extreme Work",
+              "button_link": "shopify:\/\/collections\/workwear-extreme-work"
+            }
+          },
+          "2c7a8bde-5823-4c57-833b-ea645f896a6a": {
+            "type": "text",
+            "settings": {
+              "heading": "HERITAGE WORK",
+              "button_link": "#"
+            }
+          },
+          "aadb77fb-aff2-4530-8871-e47a00c9cbf6": {
+            "type": "text",
+            "settings": {
+              "heading": "HYBRID WORK",
+              "button_link": "#"
+            }
+          },
+          "9fbb9cf8-8f52-47bb-9b79-ea15f9bd586a": {
+            "type": "text",
+            "settings": {
+              "heading": "WATERPROOF WORK",
+              "button_link": "#"
+            }
+          }
+        },
+        "block_order": [
+          "93f9ddcd-d58c-44ae-b1eb-ff30fd9345ef",
+          "79d831ac-f466-456f-8b6a-322f26e2e033",
+          "2c7a8bde-5823-4c57-833b-ea645f896a6a",
+          "aadb77fb-aff2-4530-8871-e47a00c9cbf6",
+          "9fbb9cf8-8f52-47bb-9b79-ea15f9bd586a"
+        ],
+        "settings": {}
+      },
+      "footwearmenu": {
+        "type": "footwearmenu",
+        "blocks": {
+          "21a8e6c1-4b9c-43e5-b7ce-304daebc6f98": {
+            "type": "text",
+            "settings": {
+              "heading": "active work",
+              "button_link": "shopify:\/\/collections\/footwear-active-work"
+            }
+          },
+          "d17db52c-431f-4b97-9bec-173405baa78f": {
+            "type": "text",
+            "settings": {
+              "heading": "extreme work",
+              "button_link": "#"
+            }
+          },
+          "819ba662-7317-4ace-bfd7-6d270c8ff327": {
+            "type": "text",
+            "settings": {
+              "heading": "heritage work",
+              "button_link": "shopify:\/\/collections\/footwear-heritage-work"
+            }
+          },
+          "4e0f80d5-5719-460b-8fd6-6fbfa6ea1834": {
+            "type": "text",
+            "settings": {
+              "heading": "hybrid work",
+              "button_link": "#"
+            }
+          },
+          "de802d8a-faee-4099-8117-79d398ea111e": {
+            "type": "text",
+            "settings": {
+              "heading": "waterproof work",
+              "button_link": "#"
+            }
+          }
+        },
+        "block_order": [
+          "21a8e6c1-4b9c-43e5-b7ce-304daebc6f98",
+          "d17db52c-431f-4b97-9bec-173405baa78f",
+          "819ba662-7317-4ace-bfd7-6d270c8ff327",
+          "4e0f80d5-5719-460b-8fd6-6fbfa6ea1834",
+          "de802d8a-faee-4099-8117-79d398ea111e"
+        ],
+        "settings": {}
+      },
+      "accessoriesmenu": {
+        "type": "accessoriesmenu",
+        "blocks": {
+          "ec63f40c-2abf-42f8-b1f4-311f1e66971b": {
+            "type": "text",
+            "settings": {
+              "heading": "active work",
+              "button_link": "shopify:\/\/collections\/accessories-active-work"
+            }
+          }
+        },
+        "block_order": [
+          "ec63f40c-2abf-42f8-b1f4-311f1e66971b"
+        ],
+        "settings": {}
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "United States"
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "1616627196af45ff88",
+      "featured-collections",
+      "1616638123a38b831b",
+      "featured-product",
+      "1616629306d49f80e1",
+      "1616631577cdb385a7",
+      "timeline",
+      "1616632408a10c7603",
+      "collection-list",
+      "blog-posts",
+      "shop-the-look",
+      "161664026416a0f80a",
+      "1616641384b93429dc",
+      "1616713974cecb1094"
+    ]
+  },
+  "presets": {
+    "Allure": {
+      "heading_color": "#1c1b1b",
+      "text_color": "#1c1b1b",
+      "text_light_color": "#6a6a6a",
+      "link_color": "#6a6a6a",
+      "background": "#efefef",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#1c1b1b",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#1c1b1b",
+      "header_light_color": "#6a6a6a",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#1c1b1b",
+      "footer_text_color": "#6a6a6a",
+      "newsletter_popup_background": "#1c1b1b",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#1c1b1b",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#1c1b1b",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "montserrat_n5",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "nunito_sans_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": false,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#efefef",
+      "checkout_accent_color": "#1c1b1b",
+      "checkout_button_color": "#1c1b1b",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Couture": {
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "text_light_color": "#939393",
+      "link_color": "#323232",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#5c5c5c",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#5c5c5c",
+      "header_light_color": "#939393",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#5c5c5c",
+      "footer_text_color": "#939393",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#1c1b1b",
+      "secondary_elements_background": "#5c5c5c",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#5c5c5c",
+      "heading_font": "futura_n4",
+      "heading_size": "large",
+      "uppercase_heading": false,
+      "text_font": "century_gothic_n4",
+      "base_text_font_size": 15,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "left",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "small",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#323232",
+      "checkout_button_color": "#5c5c5c",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f3f3f3",
+            "text_color": "#5c5c5c",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "center",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Vogue": {
+      "heading_color": "#303030",
+      "text_color": "#303030",
+      "text_light_color": "#595959",
+      "link_color": "#000000",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#f5db8b",
+      "button_text_color": "#303030",
+      "header_background": "#ffffff",
+      "header_heading_color": "#303030",
+      "header_light_color": "#595959",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#303030",
+      "footer_text_color": "#595959",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#303030",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#303030",
+      "secondary_elements_background": "#fce7a8",
+      "secondary_elements_text_color": "#303030",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "futura_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "show_element_staggering": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#a17c5e",
+      "checkout_button_color": "#454545",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f1e4d8",
+            "text_color": "#343434",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    }
+  }
+}

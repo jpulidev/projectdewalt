@@ -1,0 +1,128 @@
+<section data-section-id="login" data-section-type="login" style="background:url(https://cdn.shopify.com/s/files/1/0516/5301/7778/files/texture_background.jpg?v=1616629184);margin-top: -80px;
+    margin-bottom: -80px;
+}">
+  <div class="Container">
+    <div class="PageContent PageContent--fitScreen PageContent--extraNarrow">
+      {%- assign is_recover_active = false -%}
+
+      {%- form 'recover_customer_password' -%}
+        {%- if form.errors or form.posted_successfully? -%}
+          {%- assign is_recover_active = true -%}
+        {%- endif -%}
+      {%- endform -%}
+
+      {%- comment -%}
+      --------------------------------------------------------------------------------------------------------------------
+      CUSTOMER LOGIN FORM
+      --------------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+
+      {%- if is_recover_active -%}
+        {%- assign login_default_visibility = 'display: none' -%}
+      {%- else -%}
+        {%- assign login_default_visibility = 'display: block' -%}
+      {%- endif -%}
+
+      {%- form 'customer_login', name: 'login', class: 'Form Form--spacingTight', id: 'customer_login', style: login_default_visibility -%}
+        <header class="Form__Header">
+          <h1 class="Form__Title Heading u-h1">{{ 'customer.login.title' | t }}</h1>
+          <p class="Form__Legend">{{ 'customer.login.description' | t }}</p>
+        </header>
+
+        {%- if form.errors -%}
+          <p class="Form__Alert Alert Alert--error">
+            {{- form.errors.messages['form'] -}}
+          </p>
+        {%- endif -%}
+
+        <div class="Form__Item login-form">
+          <input type="email" class="Form__Input" name="customer[email]" required="required" placeholder="{{ 'customer.login.email' | t }}" aria-label="{{ 'customer.login.email' | t }}" autofocus>
+          <label class="Form__FloatingLabel">{{ 'customer.login.email' | t }}</label>
+        </div>
+
+        <div class="Form__Item login-form">
+          <input type="password" class="Form__Input" name="customer[password]" required="required" placeholder="{{ 'customer.login.password' | t }}" aria-label="{{ 'customer.login.password' | t }}">
+          <label class="Form__FloatingLabel">{{ 'customer.login.password' | t }}</label>
+          <button type="button" class="Form__ItemHelp Link Link--primary" data-action="toggle-recover-form">{{ 'customer.login.forgot' | t }}</button>
+        </div>
+
+        <button type="submit" class="Form__Submit Button Button--primary Button--full">{{ 'customer.login.submit' | t }}</button>
+
+        <div class="Form__Hint Form__Hint--center">
+          <span class="Text--subdued" style="color: #fff;">{{ 'customer.login.register_label' | t }}</span>
+          <a href="{{ routes.account_register_url }}" class="Link Link--secondary">{{ 'customer.login.register_link' | t }}</a>
+        </div>
+      {%- endform -%}
+
+      {%- comment -%}
+      --------------------------------------------------------------------------------------------------------------------
+      CUSTOMER RECOVERY FORM
+      --------------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+
+      {%- if is_recover_active -%}
+        {%- assign recover_default_visibility = 'display: block' -%}
+      {%- else -%}
+        {%- assign recover_default_visibility = 'display: none' -%}
+      {%- endif -%}
+
+      {%- form 'recover_customer_password', name: 'recover', class: 'Form Form--spacingTight', id: 'recover_customer_password', style: recover_default_visibility -%}
+        <header class="Form__Header">
+          <h1 class="Form__Title Heading u-h1">{{ 'customer.recover_password.title' | t }}</h1>
+
+          {%- unless form.posted_successfully? -%}
+            <p class="Form__Legend">{{ 'customer.recover_password.description' | t }}</p>
+          {%- endunless -%}
+        </header>
+
+        {%- if form.errors -%}
+          <p class="Form__Alert Alert Alert--error">
+            {{- form.errors.messages['form'] -}}
+          </p>
+        {%- endif -%}
+
+        {%- if form.posted_successfully? -%}
+          <p class="Form__Alert Alert Alert--success">
+            {{- 'customer.recover_password.success' | t -}}
+          </p>
+        {%- endif -%}
+
+        <div class="Form__Item">
+          <input type="email" class="Form__Input" name="email" required="required" placeholder="{{ 'customer.recover_password.email' | t }}" aria-label="{{ 'customer.recover_password.email' | t }}" autofocus>
+          <label class="Form__FloatingLabel">{{ 'customer.recover_password.email' | t }}</label>
+        </div>
+
+        <button type="submit" class="Form__Submit Button Button--primary Button--full" style="letter-spacing: 1px;">{{ 'customer.recover_password.submit' | t }}</button>
+
+        <div class="Form__Hint Form__Hint--center">
+          <span class="Text--subdued" style="color: #fff;">{{ 'customer.recover_password.login_label' | t }}</span>
+          <button type="button" class="Link Link--secondary" data-action="toggle-recover-form">{{ 'customer.recover_password.login_link' | t }}</button>
+        </div>
+      {%- endform -%}
+    </div>
+  </div>
+</section>
+<div class="last-section">
+{% section 'home-3col-section' %}
+</div>
+
+<style>
+  .login-form>.Form__Input{
+  border: 1px solid #fff!important;
+    color:#fff;
+  }
+  
+  .login-form>::placeholder{
+  color:#fff!Important
+  }
+  
+  .Form__Title,.Form__Legend{color:#fff!important;}
+  
+  #shopify-section-home-3col-section>.hero-3colum-home>.grid-3column-home>.heading-one {
+    text-align: left!important;
+    padding-left: 8%!important;
+    font-weight: bold!important;
+    font-size: 2.4em!important;
+}
+
+</style>

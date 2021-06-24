@@ -1,0 +1,91 @@
+{% render 'breadcrumbs' %}
+
+
+{%if collection.products_count == 0%}
+   <header class="PageHeader" style="margin-bottom: -140px;">
+          <div class="Container">
+            
+            <div class="SectionHeader SectionHeader--center">
+              
+
+ 
+ <h1 class="SectionHeader__Heading Heading u-h1" style="font-size: 2em;">
+              {%if collection.handle contains 'workwear'%} 
+                {{collection.title | split: " " | first}}
+              {%elsif collection.handle contains 'footwear'%}
+                Footwear
+              {%elsif collection.handle contains 'Accessories'%}
+                Accessories
+              {%else%}
+                {{collection.title | split: " " | first}} 
+              {%endif%}
+              </h1>
+            </div>
+            
+          </div>
+        </header>
+{%endif%}
+{%comment%}
+{%- if collection.handle contains 'workwear' -%}
+       {% include 'menu-workwear'%}
+{%- elsif collection.handle contains 'footwear'  -%}
+       {% include 'menu-footwear'%}
+{% elsif collection.handle contains 'accessories'%}
+        {% include 'menu-accesories'%}
+
+{%else%}
+
+{%-endif-%}
+{%endcomment%}
+
+{% include 'menu-test'%}
+
+{%comment%}
+{%- if collection.handle contains 'footwear' -%}
+       {%section 'footwearmenu'%}
+{%- endif -%}
+
+{%- if collection.handle contains 'accessories' -%}
+       {%section 'accessoriesmenu'%}
+{%endif%}
+{%endcomment%}
+
+
+{% section 'collection-template' %}
+
+
+
+{%- if collection.image != blank -%}
+          {% section 'collection-banner-down' %}
+{%- endif -%}
+
+
+{% section 'recently-viewed-products' %}
+{% section 'collection-footer' %}
+<div class="last-section">
+{% section 'home-3col-section' %}
+</div>
+
+
+<style>
+  
+  .activelist>a{
+    font-weight: bold;
+    border-bottom: 1px solid;
+  }
+
+  .grid-menu {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+    display: inline-flex;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+}
+  
+</style>
+

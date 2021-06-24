@@ -1,0 +1,48 @@
+<div class="hero-3colum-home">
+  <div class="grid-3column-home">  
+  
+{%for block in section.blocks%}
+
+<h2 class="heading-one"><a class="guaranted" href="{{ block.settings.button_link }}" style="font-family: futura-pt,sans-serif;">{{block.settings.heading}}</a></h2>
+
+{%endfor%}
+</div>  
+  </div>  
+  
+
+{% schema %}
+  {
+    "name": "Home 3col links",
+   
+"blocks":[{
+"type": "text",
+"name": "Collection home links",
+"settings": [
+ {
+  			"type": "text",
+  			"label": "Collection Title",
+  			"id": "heading"
+  		},
+{
+      "type": "url",
+      "id": "button_link",
+      "label": "Collection Url"
+    }
+
+]
+}],
+  	"presets": [{
+  		"category": "text",
+  		"name": "home-3col-section"
+  	}]
+
+
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,34 @@
+{% render 'breadcrumbs' %}
+<div class="Container">
+  <header class="PageHeader">
+    <div class="SectionHeader SectionHeader--center">
+      <h1 class="SectionHeader__Heading Heading u-h1" style="margin: 6% 0px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;letter-spacing: 1px;">{{ page.title }}</h1>
+    </div>
+  </header>
+
+  <div class="PageContent PageContent--narrow Rte">
+    {{ page.content }}
+  </div>
+</div>
+<div class="last-section">
+{% section 'home-3col-section' %}
+</div>
+<style>
+  .icon-img-first{
+  position: relative;
+    top: -50px;
+    height: 50px!important;
+  }
+  .last-section{
+      margin-bottom: -120px;
+  }
+    #shopify-section-home-3col-section>.hero-3colum-home>.grid-3column-home>.heading-one {
+    text-align: left!important;
+    padding-left: 8%!important;
+    font-weight: bold!important;
+    font-size: 2.4em!important;
+}
+</style>

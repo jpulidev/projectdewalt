@@ -1,0 +1,37 @@
+{% render 'breadcrumbs' %}
+{% section 'about-section-1' %}
+{% section '2col-Text-image-right' %}
+{% section '2col-Text-image-left' %}
+{% section 'about-section3' %}
+{% section 'image-with-text-overlay' %}
+<div class="last-section">
+{% section 'home-3col-section' %}
+</div>
+<style>
+  .icon-img-first{
+  position: relative;
+    top: -50px;
+    height: 50px!important;
+  }
+  .last-section{
+      margin-bottom: -120px;
+  }
+  
+  #shopify-section-home-3col-section>.hero-3colum-home>.grid-3column-home>.heading-one {
+    text-align: left!important;
+    padding-left: 8%!important;
+    font-weight: bold!important;
+    font-size: 2.4em!important;
+}
+  
+  @media screen and (max-width:1000px){
+    
+    .right-content{
+    right: 10px!important;
+    }
+    .left-content{
+        left: 10px!important;
+    }
+  }
+
+</style>

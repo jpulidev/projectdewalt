@@ -1,0 +1,66 @@
+<div class="menu-collections1">
+<ul class="grid-menu">
+{%for block in section.blocks%}
+
+<li class="underline-collection"><a href="{{ block.settings.button_link }}">{{block.settings.heading}}</a></li>
+
+
+{%endfor%}
+</ul>
+</div>
+
+<style>
+  .menu-collections1{
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    z-index:1;
+  }
+  
+  
+  .underline-collection:hover{
+  text-decoration: underline;
+    text-underline-offset: 9px;
+  }  
+  
+  
+</style>  
+
+
+{% schema %}
+   {
+    "name": "Collections Menu",
+   
+"blocks":[{
+"type": "text",
+"name": "Collection home links",
+"settings": [
+ {
+  			"type": "text",
+  			"label": "Collection Title",
+  			"id": "heading"
+  		},
+{
+      "type": "url",
+      "id": "button_link",
+      "label": "Collection Url"
+    }
+
+]
+}],
+  	"presets": [{
+  		"category": "text",
+  		"name": "Footwear Collections Links"
+  	}]
+
+
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

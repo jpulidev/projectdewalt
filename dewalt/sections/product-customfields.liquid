@@ -1,0 +1,241 @@
+{% if section.settings.image %}
+<div class="Product-Inner-Image" style="background:url({{section.settings.image | img_url:'master'}});height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;">
+
+</div>
+{% endif %}
+
+<div class="custom-field-product-grid">
+  <div class="grid-fields1">
+    <div class="item-1">
+      	                  
+      <div class="safety-grid">
+        <div class="title-1">
+           {{section.settings.safetyratings}}
+      </div>
+       <ul class="list-tags">
+        
+      {%- for tag in product.tags -%}
+                        {%- if tag contains 'SAFETY' -%}
+         <li class="list-tags-safety">
+        <div class="safety-tag">
+          {{- tag | remove_first: "SAFETY" -}}
+        </div>
+         </li>
+          {%- continue -%}
+                        {%- endif -%} 
+                      {%- endfor -%}
+        </ul>
+      </div>
+                        
+      <div class="safety-grid">
+        
+        
+       <div class="title-1">
+      {{section.settings.safetyratings2}}
+      
+      </div>
+        <ul class="list-tags" >
+          {%- for tag in product.tags -%}
+                        {%- if tag contains 'SLIP' -%}
+          <li class="list-tags-safety">
+        <div class="safety-tag">
+          {{- tag | remove_first: "SLIP" -}}
+        </div>
+          </li>
+           {%- continue -%}
+                        {%- endif -%} 
+                      {%- endfor -%}
+        </ul>
+      </div>
+      
+      
+    
+    </div>
+  </div>
+  <div class="grid-fields2">
+    <div class="item-1">
+       <div class="title-1">
+      {{section.settings.safetyratings3}}
+       <ul class="list-tags2">
+          {%- for tag in product.tags -%}
+                        {%- if tag contains 'TECHNOLOGY' -%}
+         {% assign icon = tag | remove_first: "TECHNOLOGY: " %}
+            
+          <li class="list-tags-safety" style="background:url({{icon | append: ".png" | asset_url}})">
+        
+          
+          <img class="icon-img-first"  src="{{ icon | append: ".png" | file_url  }}" alt="{{- tag | remove_first: "TECHNOLOGY:" -}}">
+       
+            
+          </li>
+           {%- continue -%}
+                        {%- endif -%} 
+                      {%- endfor -%}
+        </ul>
+         
+         
+      </div>
+    {%comment%}
+      <img class="icon-img-first" src="{{section.settings.image3 | img_url:'master'}}">
+   {%endcomment%}
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .list-tags-safety {
+  list-style: none;
+  }
+  
+  .list-tags{
+  
+    text-align:center;
+  }
+
+  .list-tags2{
+  text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 350px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    grid-gap: 27px;
+  }
+  
+  .safety-tag{
+  padding: 5px 57px;
+    background: #f8c613;
+    color: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 5%;
+    min-width: 161px;
+    margin-left: -2px;
+    
+  }
+  
+  .safety-grid{
+  color: #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+  }
+  
+  .custom-field-product-grid{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+   
+  }
+  .grid-fields1{
+  
+  background: #353233;
+    text-align: center;
+    padding: 3% 0px;
+  }
+
+  .grid-fields2{
+      background: #f7c713;
+    text-align: center;
+    padding: 8% 0px;
+  
+ }
+  .title-1{
+  font-size: 2em;
+   
+    font-weight: 600;
+  }
+  
+</style>
+{% schema %}
+  {
+  	"name": "Product-CustomFields",
+  	"settings": [
+{
+  			"type": "image_picker",
+  			"label": "your image",
+  			"id": "image"
+  		},
+{
+  			"type": "text",
+  			"label": "cdnchange",
+  			"id": "cdnchange"
+  		},
+
+{
+  			"type": "text",
+  			"label": "headline for the section",
+  			"id": "heading"
+  		},
+{
+  			"type": "text",
+  			"label": "Safety Ratings",
+  			"id": "safetyratings"
+  		},
+{
+  			"type": "text",
+  			"label": "Safety Ratings",
+  			"id": "safetyratings2"
+  		},
+{
+  			"type": "text",
+  			"label": "TECHNOLOGY",
+  			"id": "safetyratings3"
+  		},
+  		{
+  			"type": "richtext",
+  			"label": "your description",
+  			"id": "description"
+  		}
+  	],
+  	"blocks": [{
+  		"type": "image",
+  		"name": "image block",
+  		"settings": [{
+  			"type": "image_picker",
+  			"label": "your image",
+  			"id": "image"
+  		},
+      {
+  			"type": "text",
+  			"label": "headline for the section",
+  			"id": "heading"
+  		},
+{
+  			"type": "text",
+  			"label": "headline for the section",
+  			"id": "heading2"
+  		},
+{
+  			"type": "image_picker",
+  			"label": "icon",
+  			"id": "image-icon"
+  		},
+  {
+      "type": "url",
+      "id": "button_link",
+      "label": "icon-link"
+    }
+
+
+]
+  	}],
+  	"presets": [{
+  		"category": "image",
+  		"name": "Product-custom-fields"
+  	}]
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
